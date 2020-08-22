@@ -1,0 +1,46 @@
+
+S
+java:S1128"1Remove this unused import 'android.widget.Toast'.(©›ïÍúÿÿÿÿ8¶Ã·á¿.
+S
+java:S2696H"6Make the enclosing method "static" or remove this set.(ö­öÒ8Äòá¿.
+X
+java:S2696G"6Make the enclosing method "static" or remove this set.(Ëèè´üÿÿÿÿ8ú”©á¿.
+X	java:S110"<This class has 9 parents which is greater than 5 authorized.(©ˆà8¨‹™à¿.
+X
+java:S2696J"6Make the enclosing method "static" or remove this set.(˜¤ÿ‡ıÿÿÿÿ8Äòá¿.
+
+java:S1186g"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÆÑÛé8Ã‰Èã¿.
+R
+java:S1128"0Remove this unused import 'android.view.Window'.(¿è™÷úÿÿÿÿ8¶Ã·á¿.
+Y
+java:S1128"7Remove this unused import 'android.widget.ProgressBar'.(³ñÿŸùÿÿÿÿ8û¾¶à¿.
+S
+java:S2696E"6Make the enclosing method "static" or remove this set.(†˜şÆ8ù‹Éã¿.
+K
+java:S1604‚"(Make this anonymous inner class a lambda(´¸©”üÿÿÿÿ8×÷Âà¿.
+S
+java:S2696B"6Make the enclosing method "static" or remove this set.(äóÊ¹8ú”©á¿.
+R
+java:S2696I"6Make the enclosing method "static" or remove this set.(ÏÎ•d8Äòá¿.
+f
+java:S1128"DRemove this unused import 'android.graphics.drawable.ColorDrawable'.(ÖŸÂ«øÿÿÿÿ8¶Ã·á¿.
+S
+java:S2696A"6Make the enclosing method "static" or remove this set.(–Ã‡Ì8ú”©á¿.
+S
+java:S2696D"6Make the enclosing method "static" or remove this set.(¤´Š8ƒ¼Çã¿.
+S
+java:S2696F"6Make the enclosing method "static" or remove this set.(ÊÕ£‘8ú”©á¿.
+Q
+java:S1128"/Remove this unused import 'android.app.Dialog'.(·‚Àúÿÿÿÿ8¶Ã·á¿.
+X
+java:S2696C"6Make the enclosing method "static" or remove this set.(Í½é²ûÿÿÿÿ8ú”©á¿.
+Q
+java:S1128"/Remove this unused import 'org.json.JSONArray'.(¬¸Ê’üÿÿÿÿ8ÎœÎà¿.
+X
+java:S2696@"6Make the enclosing method "static" or remove this set.(Ø›É¤ÿÿÿÿÿ8ú”©á¿.
+J
+java:S16045"(Make this anonymous inner class a lambda(ÎÄªÿÿÿÿÿ8¨‹™à¿.
+X
+java:S2696?"6Make the enclosing method "static" or remove this set.(Îé‚¼ıÿÿÿÿ8ú”©á¿.
+X
+java:S2696K"6Make the enclosing method "static" or remove this set.(È—Ã‘ÿÿÿÿÿ8êµÅÜÀ.

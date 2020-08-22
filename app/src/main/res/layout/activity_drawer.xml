@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.navigation.NavigationView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="start"
+    android:id="@+id/navigation_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/navigation_rect">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="85dp"
+                android:layout_marginLeft="28dp"
+                android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_user_image"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#3d2582"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="66sp"
+                android:layout_marginLeft="10dp"
+                android:text="Ramakrishnan"
+                />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:background="#fafafa"
+                android:layout_marginTop="28dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:text="3"
+                    android:textSize="10.5sp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:background="@drawable/blue_circle"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#3d2582"
+                    android:lineSpacingExtra="66sp"
+                    android:text="Active Accounts"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llSecond"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:background="@color/white"
+
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_payment"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#3d2582"
+                    android:lineSpacingExtra="66sp"
+                    android:text="Payments"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llThird"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:background="@color/white"
+
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_left_right"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#3d2582"
+                    android:lineSpacingExtra="66sp"
+                    android:text="Transactions"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llFourth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_pay_bills"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#3d2582"
+                    android:lineSpacingExtra="66sp"
+                    android:text="Pay Bills"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llFifth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_products"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#3d2582"
+                    android:lineSpacingExtra="66sp"
+                    android:text="Our Produts"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llSixth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_cards"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#3d2582"
+                    android:lineSpacingExtra="66sp"
+                    android:text="My Cards"
+                    />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</com.google.android.material.navigation.NavigationView>

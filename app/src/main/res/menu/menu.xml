@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:title="Share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/gdpr"
+        android:orderInCategory="100"
+        android:title="GDPR"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/privacy"
+        android:orderInCategory="100"
+        android:title="Privacy"
+        app:showAsAction="never" />
+
+</menu>
