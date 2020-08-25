@@ -1,83 +1,83 @@
 
-r
-java:S1104"UMake urlstatus a static final constant or non-public and provide accessors if needed.(®İÍ†8ŸèÖá¿.
-F
-java:S1444")Make this "public static ads" field final(€Ôû8ŸèÖá¿.
-F
-java:S1659")Declare "admobreward" on a separate line.(€Ôû8­ÎÆã¿.
-M
-java:S1444"0Make this "public static admobinter" field final(€Ôû8ŸèÖá¿.
-l
-java:S1104"OMake apk a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
 q
-java:S1104"TMake popsdesc a static final constant or non-public and provide accessors if needed.(€Ôû8ì¡Úá¿.
-N
-java:S1444"1Make this "public static admobreward" field final(€Ôû8­ÎÆã¿.
->
-java:S1659"!Declare "apk" on a separate line.(€Ôû8ŸèÖá¿.
-K
-java:S1444".Make this "public static popsdesc" field final(€Ôû8ì¡Úá¿.
-C
-java:S1659"&Declare "popsdesc" on a separate line.(€Ôû8ì¡Úá¿.
+java:S1104"TMake redirect a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
+F
+java:S1444")Make this "public static apk" field final(€Ôû8ŸèÖá¿.
+r
+java:S1104"UMake popstitle a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
 K
 java:S1444".Make this "public static faninter" field final(€Ôû8ŸèÖá¿.
-q
-java:S1104"TMake faninter a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
+K
+java:S1444".Make this "public static redirect" field final(€Ôû8ŸèÖá¿.
+L
+java:S1444"/Make this "public static popsimage" field final(€Ôû8ŸèÖá¿.
+?
+java:S1659""Declare "pops" on a separate line.(€Ôû8ŸèÖá¿.
+F
+java:S1444")Make this "public static api" field final(€Ôû8õµÅÜÀ.
+r
+java:S1104"UMake fanbanner a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
+t
+java:S1104"WMake admobbanner a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
+l
+java:S1104"OMake ads a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
+>
+java:S1659"!Declare "apk" on a separate line.(€Ôû8ŸèÖá¿.
+r
+java:S1104"UMake urlstatus a static final constant or non-public and provide accessors if needed.(ù£ƒ§8ŸèÖá¿.
+N
+java:S1444"1Make this "public static admobbanner" field final(€Ôû8ŸèÖá¿.
+D
+java:S1659"'Declare "popstitle" on a separate line.(€Ôû8ŸèÖá¿.
+L
+java:S1444"/Make this "public static urlstatus" field final(ù£ƒ§8ŸèÖá¿.
+F
+java:S1444")Make this "public static ads" field final(€Ôû8ŸèÖá¿.
+D
+java:S1659"'Declare "popsimage" on a separate line.(€Ôû8ŸèÖá¿.
+t
+java:S1104"WMake admobreward a static final constant or non-public and provide accessors if needed.(€Ôû8­ÎÆã¿.
+>
+java:S1659"!Declare "api" on a separate line.(€Ôû8õµÅÜÀ.
 s
 java:S1104"VMake admobinter a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
+N
+java:S1444"1Make this "public static admobreward" field final(€Ôû8­ÎÆã¿.
+m
+java:S1104"PMake pops a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
+U
+java:S1128"3Remove this unused import 'android.os.Environment'.(É¿‹Ãûÿÿÿÿ8ŸèÖá¿.
+C
+java:S1659"&Declare "redirect" on a separate line.(€Ôû8ŸèÖá¿.
+q
+java:S1104"TMake faninter a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
+E
+java:S1659"(Declare "admobinter" on a separate line.(€Ôû8ŸèÖá¿.
+D
+java:S1659"'Declare "fanbanner" on a separate line.(€Ôû8ŸèÖá¿.
+M
+java:S1444"0Make this "public static admobinter" field final(€Ôû8ŸèÖá¿.
+L
+java:S1444"/Make this "public static fanbanner" field final(€Ôû8ŸèÖá¿.
+G
+java:S1444"*Make this "public static pops" field final(€Ôû8ŸèÖá¿.
+L
+java:S1444"/Make this "public static popstitle" field final(€Ôû8ŸèÖá¿.
+l
+java:S1104"OMake api a static final constant or non-public and provide accessors if needed.(€Ôû8õµÅÜÀ.
+q
+java:S1104"TMake popsdesc a static final constant or non-public and provide accessors if needed.(€Ôû8ì¡Úá¿.
 C
 java:S1659"&Declare "faninter" on a separate line.(€Ôû8ŸèÖá¿.
 >
 java:S1659"!Declare "ads" on a separate line.(€Ôû8ŸèÖá¿.
-t
-java:S1104"WMake admobreward a static final constant or non-public and provide accessors if needed.(€Ôû8­ÎÆã¿.
-N
-java:S1444"1Make this "public static admobbanner" field final(€Ôû8ŸèÖá¿.
 l
-java:S1104"OMake ads a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
-t
-java:S1104"WMake admobbanner a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
-?
-java:S1659""Declare "pops" on a separate line.(€Ôû8ŸèÖá¿.
-D
-java:S1659"'Declare "fanbanner" on a separate line.(€Ôû8ŸèÖá¿.
-K
-java:S1444".Make this "public static redirect" field final(€Ôû8ŸèÖá¿.
-r
-java:S1104"UMake popstitle a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
-L
-java:S1444"/Make this "public static popsimage" field final(€Ôû8ŸèÖá¿.
-L
-java:S1444"/Make this "public static popstitle" field final(€Ôû8ŸèÖá¿.
-L
-java:S1444"/Make this "public static fanbanner" field final(€Ôû8ŸèÖá¿.
-F
-java:S1444")Make this "public static apk" field final(€Ôû8ŸèÖá¿.
-L
-java:S1444"/Make this "public static urlstatus" field final(®İÍ†8ŸèÖá¿.
-m
-java:S1104"PMake pops a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
+java:S1104"OMake apk a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
 r
 java:S1104"UMake popsimage a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
-E
-java:S1659"(Declare "admobinter" on a separate line.(€Ôû8ŸèÖá¿.
-D
-java:S1659"'Declare "popstitle" on a separate line.(€Ôû8ŸèÖá¿.
-D
-java:S1659"'Declare "popsimage" on a separate line.(€Ôû8ŸèÖá¿.
-r
-java:S1104"UMake fanbanner a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
-q
-java:S1104"TMake redirect a static final constant or non-public and provide accessors if needed.(€Ôû8ŸèÖá¿.
-C
-java:S1659"&Declare "redirect" on a separate line.(€Ôû8ŸèÖá¿.
-G
-java:S1444"*Make this "public static pops" field final(€Ôû8ŸèÖá¿.
-U
-java:S1128"3Remove this unused import 'android.os.Environment'.(É¿‹Ãûÿÿÿÿ8ŸèÖá¿.
 F
-java:S1444")Make this "public static api" field final(€Ôû8õµÅÜÀ.
-l
-java:S1104"OMake api a static final constant or non-public and provide accessors if needed.(€Ôû8õµÅÜÀ.
->
-java:S1659"!Declare "api" on a separate line.(€Ôû8õµÅÜÀ.
+java:S1659")Declare "admobreward" on a separate line.(€Ôû8­ÎÆã¿.
+C
+java:S1659"&Declare "popsdesc" on a separate line.(€Ôû8ì¡Úá¿.
+K
+java:S1444".Make this "public static popsdesc" field final(€Ôû8ì¡Úá¿.

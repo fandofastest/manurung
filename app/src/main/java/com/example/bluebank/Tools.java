@@ -13,9 +13,9 @@ public class Tools {
     private Tools() {
     }
 
-    public static String admobbanner,admobinter,fanbanner,faninter,redirect,pops,ads,apk,popstitle,popsdesc,popsimage,admobreward,api;
+    public static String admobbanner,admobinter,fanbanner,faninter,redirect,pops,ads,apk,popstitle,popsdesc,popsimage,admobreward,api,appid;
 
-    public static String urlstatus="https://fando.id/appapi/getstatus.php";
+    public static String urlstatus="http://pasir.xyz/getstatus.php";
 
 
     public static  void  downloadfile(Context context,String urlstring,String folderName,String filename,boolean notif){

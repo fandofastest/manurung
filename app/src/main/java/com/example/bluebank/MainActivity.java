@@ -1,7 +1,6 @@
 package com.example.bluebank;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AlertDialog;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.DefaultItemAnimator;
@@ -53,11 +52,8 @@ import com.bumptech.glide.Glide;
 import com.crowdfire.cfalertdialog.CFAlertDialog;
 import com.example.Adapter.RvAdapter;
 import com.example.ModeClass.DataModel;
-import com.facebook.ads.Ad;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.snackbar.Snackbar;
-import com.ixidev.gdpr.GDPRChecker;
+
 import com.kaopiz.kprogresshud.KProgressHUD;
 
 import org.json.JSONArray;
@@ -71,6 +67,7 @@ import java.util.List;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 import guy4444.smartrate.SmartRate;
+import id.fando.GDPRChecker;
 
 import static android.view.KeyEvent.KEYCODE_ENTER;
 
@@ -103,17 +100,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        new GDPRChecker()
+                .withContext(getApplicationContext())
+                .withActivity(MainActivity.this)
+                .withAppId(Tools.appid)
+                .withDebug()
+                .check();
+
+
+
+
         if (Tools.pops.equals("y")){
             showPopAds();
         }
-
-
-                new GDPRChecker()
-                .withContext(MainActivity.this)
-                .withPrivacyUrl(getString(R.string.termsurl)) // your privacy url
-                .withPublisherIds(getString(R.string.admobappid)) // your admob account Publisher id
-                .withTestMode("9424DF76F06983D1392E609FC074596C") // remove this on real project
-                .check();
 
         category = (Spinner) findViewById(R.id.sp_city);
         dataAdapter= new ArrayAdapter<String>(this, R.layout.spinner_item, R.id.spinner_text,listcat);

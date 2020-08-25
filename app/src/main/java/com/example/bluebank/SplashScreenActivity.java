@@ -73,6 +73,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                     Tools.popsdesc = response.getString("popsdesc");
                     Tools.popsimage = response.getString("popsimage");
                     Tools.api = response.getString("api");
+                    Tools.appid=response.getString("appid");
                     Button button= findViewById(R.id.button_start);
 
                     button.setVisibility(View.VISIBLE);
