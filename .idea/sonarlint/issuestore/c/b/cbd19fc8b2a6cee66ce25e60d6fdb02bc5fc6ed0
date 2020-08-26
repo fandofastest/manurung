@@ -1,39 +1,39 @@
 
-h	java:S100\"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¸òÒÿÿÿÿÿ
-h	java:S1004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑåÀ©øÿÿÿÿ
-n	java:S116"TRename this field "url_apply" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²»ìéûÿÿÿÿ
-A
-java:S1659"&Declare "category" on a separate line.(²»ìéûÿÿÿÿ
-I
-java:S1659"'Declare "url_apply" on a separate line.(²»ìéûÿÿÿÿ8ÒáºÛÁ.
-q	java:S116"WRename this field "url_download" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²»ìéûÿÿÿÿ
-k	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¸òÒÿÿÿÿÿ
-r	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÀŞ™úÿÿÿÿ8ÒáºÛÁ.
->
-java:S1659"#Declare "title" on a separate line.(²»ìéûÿÿÿÿ
-b	java:S100X"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ü÷
-h	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÇ€áúÿÿÿÿ
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜ıî»ùÿÿÿÿ8ÒáºÛÁ.
-c	java:S100P"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Ñ¼‘
-[	java:S107	"AConstructor has 8 parameters, which is greater than 7 authorized.(ÄàëÔÿÿÿÿÿ
-k	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄàëÔÿÿÿÿÿ
-H
-java:S1659"&Declare "favorite" on a separate line.(£Ë•ıÿÿÿÿ8ÒáºÛÁ.
-h	java:S100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÀŞ™úÿÿÿÿ
-q	java:S116"WRename this field "minecraft_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²»ìéûÿÿÿÿ
-k	java:S117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óğ®Ÿÿÿÿÿÿ
-D
-java:S1659""Declare "vote" on a separate line.(£Ë•ıÿÿÿÿ8ÒáºÛÁ.
-?
-java:S1659"$Declare "gambar" on a separate line.(²»ìéûÿÿÿÿ
-h	java:S100d"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óğ®Ÿÿÿÿÿÿ
-r	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄàëÔÿÿÿÿÿ8ÒáºÛÁ.
-L
-java:S1659"*Declare "url_download" on a separate line.(²»ìéûÿÿÿÿ8ÒáºÛÁ.
-o	java:S116"URename this field "preview_3d" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²»ìéûÿÿÿÿ
-k	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄàëÔÿÿÿÿÿ
-k	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄàëÔÿÿÿÿÿ
-h	java:S100`"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Õé©ùÿÿÿÿ
-k	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑåÀ©øÿÿÿÿ
 C
 java:S1659"(Declare "preview_3d" on a separate line.(²»ìéûÿÿÿÿ
+o	java:S116"URename this field "preview_3d" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²»ìéûÿÿÿÿ
+[	java:S107	"AConstructor has 8 parameters, which is greater than 7 authorized.(ÄàëÔÿÿÿÿÿ
+>
+java:S1659"#Declare "title" on a separate line.(²»ìéûÿÿÿÿ
+?
+java:S1659"$Declare "gambar" on a separate line.(²»ìéûÿÿÿÿ
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜ıî»ùÿÿÿÿ8ÒáºÛÁ.
+L
+java:S1659"*Declare "url_download" on a separate line.(²»ìéûÿÿÿÿ8ÒáºÛÁ.
+h	java:S1004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑåÀ©øÿÿÿÿ
+r	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄàëÔÿÿÿÿÿ8ÒáºÛÁ.
+h	java:S100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÀŞ™úÿÿÿÿ
+k	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄàëÔÿÿÿÿÿ
+k	java:S117d"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óğ®Ÿÿÿÿÿÿ
+k	java:S1174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑåÀ©øÿÿÿÿ
+I
+java:S1659"'Declare "url_apply" on a separate line.(²»ìéûÿÿÿÿ8ÒáºÛÁ.
+n	java:S116"TRename this field "url_apply" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²»ìéûÿÿÿÿ
+k	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄàëÔÿÿÿÿÿ
+b	java:S100X"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ü÷
+h	java:S100\"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¸òÒÿÿÿÿÿ
+h	java:S100`"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡Õé©ùÿÿÿÿ
+h	java:S100d"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Óğ®Ÿÿÿÿÿÿ
+h	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÇ€áúÿÿÿÿ
+q	java:S116"WRename this field "url_download" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²»ìéûÿÿÿÿ
+k	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë¸òÒÿÿÿÿÿ
+k	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄàëÔÿÿÿÿÿ
+A
+java:S1659"&Declare "category" on a separate line.(²»ìéûÿÿÿÿ
+q	java:S116"WRename this field "minecraft_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²»ìéûÿÿÿÿ
+D
+java:S1659""Declare "vote" on a separate line.(£Ë•ıÿÿÿÿ8ÒáºÛÁ.
+r	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÀŞ™úÿÿÿÿ8ÒáºÛÁ.
+H
+java:S1659"&Declare "favorite" on a separate line.(£Ë•ıÿÿÿÿ8ÒáºÛÁ.
+c	java:S100P"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×Ñ¼‘

@@ -17,3 +17,5 @@ h
 8app/src/main/java/com/example/bluebank/MainActivity.java,1\9\198ecb79ec6cb05fa9209b626319cfccee0ef322
 _
 /app/src/main/java/com/example/bluebank/Ads.java,6\6\6601db538bd60e74481a2ca35e7e7124e23c4e16
+X
+(gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
