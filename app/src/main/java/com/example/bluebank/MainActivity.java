@@ -72,6 +72,7 @@ import id.fando.GDPRChecker;
 import static android.view.KeyEvent.KEYCODE_ENTER;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    private EndlessRecyclerViewScrollListener scrollListener;
 
 
     private RecyclerView recyclerView;
@@ -121,11 +122,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 if (position==0){
-                    getdata("home","null");
+                    getdata("home","null",1,false);
 
                 }
                else{
-                    getdata("cat",listcat.get(position));
+                    getdata("cat",listcat.get(position),1,false);
                 }
             }
 
@@ -157,7 +158,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public boolean onKey(View v, int keyCode, KeyEvent event) {
                 if (keyCode==KEYCODE_ENTER){
-                    getdata("search",search.getText().toString());
+                    getdata("search",search.getText().toString(),1,false);
                 }
                 return false;
             }
@@ -230,12 +231,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         mAdapter = new RvAdapter(MainActivity.this,listdata);
 
-        RecyclerView.LayoutManager mLayoutManager = new GridLayoutManager(MainActivity.this,3);
+        GridLayoutManager mLayoutManager = new GridLayoutManager(MainActivity.this,3);
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(mAdapter);
 
-        getdata("home","null");
+        scrollListener = new EndlessRecyclerViewScrollListener(mLayoutManager) {
+            @Override
+            public void onLoadMore(int page, int totalItemsCount, RecyclerView view) {
+                // Triggered only when new data needs to be appended to the list
+                // Add whatever code is needed to append new items to the bottom of the list
+                getdata("home","null",page,true);
+            }
+        };
+        recyclerView.addOnScrollListener(scrollListener);
+
+        getdata("home","null",1,false);
         getlistcat();
     }
 
@@ -332,12 +343,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-        public void getdata(String type,String cat){
-            listdata.clear();
-            recyclerView.removeAllViews();
+        public void getdata(String type,String cat,int page,boolean next){
+            if (next){
+
+            }
+
+            else {
+                listdata.clear();
+                recyclerView.removeAllViews();
+            }
+
+
             String url;
             if (type.equals("home")){
-                url=Tools.api+"home.php?page=1&limit=100";
+                url=Tools.api+"home.php?page="+page+"&limit=100";
             }
             else if (type.equals("cat")){
                 url =Tools.api+"det_category.php?category="+cat+"&limit=20";
@@ -384,8 +403,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         }
 
                         else {
-                            nf.setVisibility(View.VISIBLE);
-                            recyclerView.setVisibility(View.GONE);
+
+                            if (next){
+
+                            }
+
+                            else {
+                                nf.setVisibility(View.VISIBLE);
+                                recyclerView.setVisibility(View.GONE);
+                            }
+
                         }
 
                     } catch (JSONException e) {
