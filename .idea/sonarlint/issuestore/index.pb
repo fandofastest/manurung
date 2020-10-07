@@ -19,3 +19,5 @@ _
 /app/src/main/java/com/example/bluebank/Ads.java,6\6\6601db538bd60e74481a2ca35e7e7124e23c4e16
 X
 (gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0

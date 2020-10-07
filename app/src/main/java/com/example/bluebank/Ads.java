@@ -103,6 +103,10 @@ public class Ads {
 
             @Override
             public void onRewardedAdFailedToLoad(LoadAdError adError) {
+                getreward=true;
+
+                listener.onRewardOk();
+                hud.dismiss();
                 // Ad failed to load.
             }
 

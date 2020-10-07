@@ -1,22 +1,22 @@
 
-Ÿ
-java:S1186ù"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×é­¨8ê”Œä¿.
-¤
-java:S1186„"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×®‡¬ùÿÿÿÿ8ê”Œä¿.
-i
-java:S1192:"LDefine a constant instead of duplicating this literal "Please Wait" 3 times.(ÿÁ©Š8˜ˆ°å¿.
-j
-java:S1128"HRemove this unused import 'com.google.ads.mediation.admob.AdMobAdapter'.(«‰ÆÓşÿÿÿÿ8Ÿ±²Â.
-j
-java:S11928"HDefine a constant instead of duplicating this literal "Loading" 3 times.(ü½¶ıÿÿÿÿ8˜ˆ°å¿.
-k	java:S100ñ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÌ½©8ê”Œä¿.
-[	java:S106"9Replace this use of System.out or System.err by a logger.(²Š‹»øÿÿÿÿ8ê”Œä¿.
-O
-java:S1128"3Remove this unused import 'android.content.Intent'.(³ğ‹G8²ÌÓà¿.
+^	java:S125œ"<This block of commented-out lines of code should be removed.(¤¦ıÿÿÿÿ8ê”Œä¿.
 ¤
 java:S1186ÿ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ô‚ìíıÿÿÿÿ8ê”Œä¿.
+[	java:S106"9Replace this use of System.out or System.err by a logger.(²Š‹»øÿÿÿÿ8ê”Œä¿.
+¤
+java:S1186„"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×®‡¬ùÿÿÿÿ8ê”Œä¿.
+j
+java:S11928"HDefine a constant instead of duplicating this literal "Loading" 3 times.(ü½¶ıÿÿÿÿ8˜ˆ°å¿.
 Ÿ
 java:S1186‰"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğÿ“ë8ğµÅÜÀ.
-^	java:S125œ"<This block of commented-out lines of code should be removed.(¤¦ıÿÿÿÿ8ê”Œä¿.
+i
+java:S1192:"LDefine a constant instead of duplicating this literal "Please Wait" 3 times.(ÿÁ©Š8˜ˆ°å¿.
+Ÿ
+java:S1186ù"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(×é­¨8ê”Œä¿.
+j
+java:S1128"HRemove this unused import 'com.google.ads.mediation.admob.AdMobAdapter'.(«‰ÆÓşÿÿÿÿ8Ÿ±²Â.
+O
+java:S1128"3Remove this unused import 'android.content.Intent'.(³ğ‹G8²ÌÓà¿.
+k	java:S100ñ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÌ½©8ê”Œä¿.
 P
 java:S1128".Remove this unused import 'android.os.Bundle'.(°şÊóøÿÿÿÿ8Ÿ±²Â.

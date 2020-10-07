@@ -40,7 +40,7 @@ public class Tools {
 
         }
         request.setVisibleInDownloadsUi(false);
-        request.setDestinationInExternalPublicDir(folderName, filename+".png");
+        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, filename+".png");
         request.allowScanningByMediaScanner();
 
         downloadmanager.enqueue(request);

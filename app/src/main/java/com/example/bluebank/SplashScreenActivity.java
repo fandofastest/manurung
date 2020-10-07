@@ -54,9 +54,6 @@ public class SplashScreenActivity extends AppCompatActivity {
             @Override
             public void onResponse(JSONObject response) {
 
-
-
-
                 try {
 
 

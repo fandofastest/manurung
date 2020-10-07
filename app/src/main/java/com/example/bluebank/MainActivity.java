@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     ArrayAdapter<String> dataAdapter;
 
     List<DataModel> listdata= new ArrayList<>();
-    public static String DOWNLOAD_DIRECTORY="/Downloads";
+    public static String DOWNLOAD_DIRECTORY="/Download";
     public static String GAMEDIR="/games/com.mojang/minecraftpe";
     private DrawerLayout drawer;
     private ImageView navigationView;
@@ -658,7 +658,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        builder.show();
 //    }
 
-    private void showPopAds() {
+        private void showPopAds() {
         final Dialog dialog = new Dialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE); // before
         dialog.setContentView(R.layout.dialog_header_polygon);
